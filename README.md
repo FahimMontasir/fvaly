@@ -75,6 +75,12 @@ commit any changes change config in packages.json like this:
 
 1. merge both package.json
 2. create admin folder to pull all template code
-3. logout
+3. merchant Dashboard
+
+## performance optimization
+
+1. using useMemo, useCallback, memo
+2. react profiler
+3. .env.local => GENERATE_SOURCEMAP = false => to avoid source .map file in production
 
 ## node js backend
